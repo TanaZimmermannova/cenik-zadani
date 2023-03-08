@@ -8,9 +8,19 @@
   </head>
   <body>
     <div class="container">
-      <h1>Naše nabídka</h1>
+
+      <h1>Úkol 1 - Výplata</h1>
+      <button onclick = "taxed()">Výpočet čisté měsíční mzdy</button>
+      <div class="mzda"></div>
+  
+  
+      <h1>Úkol 2 - Kalkulačka</h1>
+      <button onclick="calculate ()">Kalkulačka</button>
+      <div class="kalkulacka"></div>
+
+      <h1>Úkol 3 - Naše nabídka</h1>
       <div class="plans">
-        <div id="plan1" class="plan plan--selected">
+        <div id="plan1" class="plan">
           <h2 class="plan__type">Základní</h2>
           <p class="plan__price">5€ / měsíc</p>
         </div>
@@ -23,6 +33,9 @@
           <p class="plan__price">20€ / měsíc</p>
         </div>
       </div>
+
     </div>
+
+    <script src="script.js"> </script>
   </body>
 </html>
